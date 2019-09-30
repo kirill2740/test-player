@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/greghub/green-audio-player/dist/css/green-audio-player.min.css">
+  <link rel= "stylesheet"  type= "text/css"  href= "{path}/dist/css/green-audio-player.min.css">
+<script src="https://cdn.jsdelivr.net/gh/greghub/green-audio-player/dist/js/green-audio-player.min.js"></script>
+<script src= "{path}/dist/js/green-audio-player.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="gap-example">
+    <audio>
+        <source src="https://psv4.userapi.com/c852636//u325459418/audiomsg/d13/8b24cf32ed.mp3" type="audio/mpeg">
+    </audio>
+</div>
+<script>
+  new GreenAudioPlayer('.gap-example');
+  GreenAudioPlayer.init({
+    selector: '.player',
+    showDownloadButton: true
+});
+</script>
+</body>
+</html>
